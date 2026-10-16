@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+
+}
+
+button{
+    background-color:blue;
+    color: white;
+    padding: 10px 30px;
+}
+
+.container p:first-child{
+    background-color: blue;
+}
+
+.container p:last-child{
+    background-color: yellow;
+
+}
+
+.container p:nth-child(2){
+    background-color: greenyellow;
+}
+
+.box p::first-letter{
+    font-size: 30px;
+}
+
+.box p::first-line{
+    text-decoration: underline;
+}
+
+.box h1::after{
+    content: '-';
+}
+
+.box h1::before{
+    content: '-';
+}
+
+.one{
+    text-align: center;
+}
+
+.h1 ::before{
+    content: red;
+}
+
